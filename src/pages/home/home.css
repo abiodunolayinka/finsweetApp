@@ -1,0 +1,140 @@
+.home {
+  width: 100%;
+}
+.item_container {
+  background-color: #e0e4fa;
+  border-radius: 10px;
+}
+.item_content {
+  width: 20%;
+}
+.heading-label {
+  background: linear-gradient(to right, #373fff, #3acaf8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section1 {
+  margin: auto;
+}
+.secticont {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.Heading-l {
+  font-family: "Jost", sans-serif;
+  font-size: 45px;
+  font-style: bold;
+  /* line-height: 30px; */
+  color: #1d2130;
+  letter-spacing: 0px;
+  text-align: center;
+  margin: 0;
+}
+.whyusc {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  /* text-align: center; */
+}
+.bulletContainer {
+  width: 100%;
+  display: flex;
+  /* margin-right : 100px; */
+  /* text-align: center; */
+}
+.bulletsection {
+  /* width: 80%; */
+  /* margin-top: 50px;
+  margin-right: 100px; */
+}
+.bulletinfo {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  color: #1d2130;
+}
+
+.Cta {
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient(to right, #aed3ff, #cacffa, #aed3ff, #c9d4ef);
+  /* background: radial-gradient(to-right, 483.9% 2719.65% at -49.5% -250%, #D798E1 17.55%, #9BFFA5#CACFFA 27.56%, #AED3FF 49.89%, #C9D4EF 56.53%, #CACFFA 65.69%) warning: gradient uses a rotation that is not supported by CSS and may not behave as expected; */
+}
+.Ctacontent {
+  width: 90%;
+  height: 55vh;
+  margin: auto;
+  padding: 50px;
+  margin-top: 5em;
+  justify-content: center;
+  /* align: center; */
+  display: flex;
+  flex-direction: row;
+  /* border-radius: 10px; */
+  /* text-align: center; */
+}
+.heroimge {
+  width: 60%;
+}
+heroimge > img {
+}
+.featbul {
+  color: #1d2130;
+  font-family: "Jost", sans-serif;
+  font-size: 15px;
+}
+.divider {
+  width: 3px;
+  height: 25vh;
+  background: #cdc7d2;
+}
+.featurecont {
+  display: flex;
+  width: 90%;
+  height: 40vh;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e4fa;
+  border-radius: 30px;
+  padding: 40px;
+  gap: 20px;
+}
+.testHeading {
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  /* line-height: 28px; */
+  color: rgb(14, 13, 13);
+  padding-top: 24px;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  /* display:flex; */
+}
+.flexcard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+}
+.logo {
+  width: 80%;
+  /* height : 10vh; */
+  margin: 40px;
+  gap: 40px;
+  /* justify-content: center; */
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  /* text-align: center; */
+}

@@ -1,0 +1,31 @@
+
+.heroHeading {
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+
+  color: rgb(14, 13, 13);
+  padding-top: 24px;
+  margin: auto;
+  text-align: center;
+  /* width: 72%; */
+  /* display:flex; */
+}
+
+.heroInfo {
+  font-family: "Jost", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  /* color:red; */
+  padding-top: 24px;
+  margin: auto;
+  /* width: 72%; */
+  text-align: center;
+}
+
+.heroContainer {
+  /* width: 80%; */
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}

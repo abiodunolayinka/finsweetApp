@@ -1,0 +1,41 @@
+.card {
+  border-radius: 24px;
+  background: transparent;
+  border: 2px solid #6199ed42;
+  text-align: center;
+  padding: 60px;
+}
+.cardcont {
+  /* width: 80%; */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.testinfo {
+  /* width: 81%; */
+  font-family: "Jost", sans-serif;
+  font-size: 15px;
+  color: #1d2130;
+  /* margin: auto; */
+  /* padding: 40px 0; */
+}
+.testimg {
+  padding-top: 40px;
+}
+.testname {
+  /* width: 380px; */
+  font-family: "Jost", sans-serif;
+  font-size: 15px;
+  color: #1d2130;
+  /* padding-top: -400px; */
+}
+.rank {
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  color: #1d2130;
+}
+.cardflex {
+  display: flex;
+  /* width: 80%; */
+}
