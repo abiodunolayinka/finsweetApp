@@ -159,7 +159,7 @@ function blog() {
           </div>
         </div>
       </div>
-      <Link to="/BlogPost">  <Button class="m-auto  sm:8  item-center  justify-center text-center" label="Free Trial" color="white" bg="primary" /></Link>
+      <Link to="/BlogPost">  <Button class="m-auto  sm:8  item-center  justify-center text-center" label="go to the blog postgit" color="white" bg="primary" /></Link>
       
 
     </div>
