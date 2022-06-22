@@ -36,14 +36,14 @@ const home = () => {
     <section>
       <Headercontent />
       <section classname="section1 bg-herobg">
-        <div className="p-6 text-center">
+        <div className="p-6 w-5/6 sm-3/6 m-auto text-center">
           <h4 className="heading-label">High quality</h4>
           <h1 className="text-3xl sm:text-5xl text-primary font-bold">
             We have the Best Solution for your Business
           </h1>
         </div>
-        <div className="item_container sm:mx-32 mb-20">
-          <div className="flex flex-col sm:flex-row p-10 sm:p-16 gap-10">
+        <div className="item_container ">
+          <div className="  mx-auto flex justify-center items-center flex-col md:flex-row md:gap-16 p-10 sm:p-16 ">
             <Item
               Logo={icon1}
               itemHeading="High security to protect from piracy"
@@ -65,13 +65,13 @@ const home = () => {
           {/* <img scr={logo} alt="Arrowimg" /> */}
         </div>
       </section>
-      <div className="max-w-7xl p-4 mx-auto flex justify-center items-center flex-col md:flex-row md:gap-20">
+      <div className="w-11/12 m-auto flex justify-center items-center my-24 flex-col md:flex-row md:gap-20">
         <Whyus
           headLine="Why should you work with us?"
           itemHeading="To upscale your business to the next level"
           info="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua invidunt ut labore."
         />
-        <div className="flex flex-col gap-4">
+        <div className=" sm:w-3/5">
           <Feature
             img={Arrow}
             info="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy."
@@ -88,7 +88,7 @@ const home = () => {
       </div>
       <div className="Cta">
         <div className="Ctacontent md:flex:cols">
-          <div>
+          <div classname="mb-4">
             <Whyus
               itemHeading="To upscale your business to the next level"
               info="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua invidunt ut labore."
@@ -100,20 +100,20 @@ const home = () => {
             height="20%"
             />
           </div>
-          <div>
+          <div classname="hidden">
             <img src={heroimge} alt="gort" />
           </div>
         </div>
       </div>
 
-      <section className="hidden sm:flex p-4 max-w-6xl mx-auto py-10 justify-between">
+      <section className="hidden sm:flex p-4 w-11/12 mx-auto py-10 justify-between">
         <Logo img={Logo2} />
         <Logo img={Logo3} />
         <Logo img={Logo4} />
         <Logo img={Logo5} />
         <Logo img={Logo6} />
       </section>
-      <div className="max-w-7xl p-4 mx-auto flex justify-center items-center flex-col md:flex-row md:gap-20">
+      <div className="w-11/12  py-4 m-auto flex justify-center gap-20 items-center flex-col md:flex-row">
         <Whyus
           headLine="Discover more"
           itemHeading="Analyze your sales and marketing leads"

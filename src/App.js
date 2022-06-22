@@ -1,4 +1,4 @@
-// import React ,{ Component } from 'react';
+import React ,{ Component } from 'react';
 import Navbar from "./components/Navbar";
 import Home from "./pages/home/home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -17,12 +17,12 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Product" element={<Product />} />
-          <Route path="/AboutUs" element={<AboutUs />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="BlogPost" element={<BlogPost />} />
-          <Route path="/pricing" element={<Price />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/Product" element={<Product/>} />
+          <Route path="/aboutUs" element={<AboutUs/>} />
+          <Route path="/blog" element={<Blog/>} />
+          <Route path="BlogPost" element={<BlogPost/>} />
+          <Route path="/pricing" element={<Price/>} />
+          <Route path="/contact" element={<Contact/>} />
         </Routes>
         <Footer />
       </div>

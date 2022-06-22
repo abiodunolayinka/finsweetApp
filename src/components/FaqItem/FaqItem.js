@@ -1,20 +1,35 @@
-const FaqItem = (props) => {
+import { useState } from "react";
 
-    return (
-        <div className="wrapper_1">
-            <button className="toggle_1">
-                <p style={{ color: `${props.open ? "#FF5A1F" : ""}` }} > {props.question}</p>
-                <i className="fa fa-plus icon" onClick={() => props.click(props.id)}></i>
-            </button>
-            <div className={`content_1 ${props.open && "show"}`}>
-                <p>{props.answer}</p>
-            </div>
+const FaqItem = (props) => {
+  const [click, setClick] = useState(true);
+  const handleClick = () => {
+    setClick(!click);
+  };
+
+  return (
+    <div className="wrapper_1">
+      <button className="toggle_1" onClick={handleClick}>
+        <p> {props.question}</p>
+        {click ? (
+          <i className="fa fa-plus icon" >
+            ...
+          </i>
+        ) : (
+          <i>...</i>
+        )}
+      </button>
+      {!click ? (
+        <div>
+          <p>{props.answer}</p>
         </div>
-    );
+      ) : (
+        null
+      )}
+    </div>
+  );
 };
 
 export default FaqItem;
-
 
 // components
 // containers/pages

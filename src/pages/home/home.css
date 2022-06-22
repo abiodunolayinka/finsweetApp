@@ -4,6 +4,8 @@
 .item_container {
   background-color: #e0e4fa;
   border-radius: 10px;
+  width: 90%;
+  margin: auto;
 }
 .item_content {
   width: 20%;
@@ -29,7 +31,6 @@
   font-family: "Jost", sans-serif;
   font-size: 45px;
   font-style: bold;
-  /* line-height: 30px; */
   color: #1d2130;
   letter-spacing: 0px;
   text-align: center;
@@ -41,7 +42,6 @@
   align-items: center;
   display: flex;
   flex-direction: row;
-  /* text-align: center; */
 }
 .bulletContainer {
   width: 100%;
@@ -62,28 +62,25 @@
 }
 
 .Cta {
-  width: 100%;
-  height: 80vh;
+  width: 90%;
+  margin: auto;
   background: linear-gradient(to right, #aed3ff, #cacffa, #aed3ff, #c9d4ef);
   /* background: radial-gradient(to-right, 483.9% 2719.65% at -49.5% -250%, #D798E1 17.55%, #9BFFA5#CACFFA 27.56%, #AED3FF 49.89%, #C9D4EF 56.53%, #CACFFA 65.69%) warning: gradient uses a rotation that is not supported by CSS and may not behave as expected; */
 }
 .Ctacontent {
   width: 90%;
-  height: 55vh;
-  margin: auto;
   padding: 50px;
-  margin-top: 5em;
+  margin: auto;
   justify-content: center;
-  /* align: center; */
   display: flex;
-  flex-direction: row;
-  /* border-radius: 10px; */
-  /* text-align: center; */
 }
 .heroimge {
-  width: 60%;
+  width: 80%;
 }
 heroimge > img {
+  width: 100%;
+  height: 100%;
+
 }
 .featbul {
   color: #1d2130;

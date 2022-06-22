@@ -7,15 +7,14 @@ import man3 from "../../images/photography-of-a-guy-wearing-green-shirt-1222271.
 import woman2 from "../../images/woman-smiling-at-the-camera-1181686.png";
 import woman3 from "../../images/woman-in-collared-shirt-774909.png";
 import Whyus from "../../components/whyus/whyUs"
-import Button from "../../components/Button";
-import { Link } from "react-router-dom";
 
 
 
 function blog() {
+  
   return (
     <div class="bg-gradient-to-b from blue-100 to white-10 "> 
-      <div class="mx-auto w-12/12 sm:8 md:px-40  item-center  justify-center text-center">
+      <div class="mx-auto w-12/12 px-72  item-center  justify-center text-center">
         <h1 class="text-3xl sm:text-5xl font-bold mb-2 text-lg text-center ">
           Read our latest blogs
         </h1>
@@ -25,7 +24,7 @@ function blog() {
           ornare, eros dolor.
         </p>
       </div>
-      <div class="md:flex justify-center item-center  w-9/12 mt-10 mx-20 max-w-7xl w-2xl gap-10 bg-#F0F2FE">
+      <div class="md:flex justify-center item-center m-auto w-9/12 mt-10 max-w-7xl w-2xl gap-10 bg-#F0F2FE">
         <Whyus
           headLine="Our Goal"
           itemHeading="To upscale your business to the next level"
@@ -35,7 +34,7 @@ function blog() {
           <img class="w-4xl mt-4" src={man} alt="gort" />
         </div>
       </div>
-      <div class="grid grid-cols-3 w-9/12 m-auto gap-4">
+      <div class="grid grid-cols-3 w-9/12 m-auto mt-24 gap-4">
         <div>
           <img src={boy} alt="gort" />
           <div class="w-full">
@@ -159,7 +158,6 @@ function blog() {
           </div>
         </div>
       </div>
-      <Link to="/BlogPost">  <Button class="m-auto  sm:8  item-center  justify-center text-center" label="go to the blog postgit" color="white" bg="primary" /></Link>
       
 
     </div>

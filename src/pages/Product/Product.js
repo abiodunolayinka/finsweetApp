@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../../components/Button";
 // import Headercontent from '../../components/headercontent/Headercontent'
 // import Rhcontent from "../../components/rhcontent/Rhcontent";
-import heroimg from "../../images/svg-1.svg";
+import Heroimg from "../../images/svg-1.svg";
 import Logo2 from "../../images/Logo-1.svg";
 import Logo3 from "../../images/Logo-2.svg";
 import Logo4 from "../../images/Logo-3.svg";
@@ -11,7 +11,7 @@ import Logo6 from "../../images/Logo-5.svg";
 import Logo from "../../components/logo/logo";
 import Product1 from "../../images/Image (1).png";
 
-import heroimge from "../../images/svg-2.svg";
+import Heroimge from "../../images/svg-2.svg";
 import Whyus from "../../components/whyus/whyUs";
 import Item from "../../components/Item/Item";
 import icon4 from "../../images/Icon-1.svg";
@@ -61,7 +61,7 @@ function Product() {
           </div>
         </div>
         <div class="w-11/12 sm: py-8">
-          <img src={heroimg} alt="gort" />
+          <img src={Heroimg} alt="gort" />
         </div>
       </div>
 
@@ -77,8 +77,8 @@ function Product() {
           Get the best out of your company with our service
         </div>
         <div>
-          <div className="flex flex-col gap-4 md:w-10/12 h-2/4">
-            <div className="item_container sm:mx-32">
+          <div>
+            <div className="item_container sm:m-auto">
               <div className="md:flex p-10 gap-5 ">
                 <Item
                   Logo={icon4}
@@ -96,8 +96,8 @@ function Product() {
                   info="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy."
                 />
               </div>
-              <div className="md:flex  p-auto p-10 gap-5 ">
-              <Item
+              <div className="md:flex  p-auto px-10 pb-10 gap-5 ">
+                <Item
                   Logo={icon4}
                   itemHeading="High security to protect from piracy"
                   info="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy."
@@ -119,24 +119,24 @@ function Product() {
       </div>
       <div class="m-auto ">
         <div class="md:flex gap-10 justify-center w-10/12 m-24 ">
-          <div>
+          <div classname="md:w-1/4">
             <Whyus
               headLine="Market insights"
               itemHeading="Data-driven client feedback"
               info="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua invidunt ut labore."
             />
           </div>
-          <div>
-            <img class="hidden" src={Product1} alt="gort" />
+          <div class="w-4/5">
+            <img src={Product1} alt="gort" />
           </div>
         </div>
       </div>
       <div class=" m-auto w-11/12">
-        <div class="md:flex gap-10 justify-center w-10/12 m-24 ">
-          <div class="mr-9">
-            <img class="hidden" src={heroimge} alt="gort" />
+        <div class="md:flex gap-10 justify-center  m-auto ">
+          <div class="w-4/5">
+            <img src={Heroimge} alt="gort" />
           </div>
-          <div>
+          <div classname="md:w-1/4">
             <Whyus
               headLine="Time tracker"
               itemHeading="Track your project performance"
@@ -145,26 +145,26 @@ function Product() {
           </div>
         </div>
       </div>
-      <div class="m-auto ">
-        <div class="md:flex gap-10 justify-center w-10/12 m-24 ">
-          <div>
+      <div class="m-auto w-11/12">
+        <div class="md:flex gap-10 justify-center  m-auto ">
+          <div classname="md:w-1/4">
             <Whyus
               headLine="Lead generation"
               itemHeading="More leads that convert"
               info="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua invidunt ut labore."
             />
           </div>
-          <div>
-            <img class="hidden" src={Product1} alt="gort" />
+          <div class="w-4/5" >
+            <img src={Product1} alt="gort" />
           </div>
         </div>
       </div>
       <div class="b-24 m-auto w-11/12">
-        <div class="md:flex flex-cols sm:flex-row gap-10 justify-center w-10/12 m-24 ">
-          <div class="mr-9">
-            <img class="hidden" src={heroimge} alt="gort" />
+        <div class="md:flex flex-cols sm:flex-row gap-10 justify-center m-auto ">
+          <div class="w-4/5">
+            <img src={Heroimge} alt="heroimg" />
           </div>
-          <div>
+          <div classname="md:w-1/4">
             <Whyus
               headLine="Remote teams"
               itemHeading="Real-time collaboration"

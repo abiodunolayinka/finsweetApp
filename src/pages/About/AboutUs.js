@@ -1,14 +1,8 @@
 import React from "react";
 import Whyus from "../../components/whyus/whyUs";
-import feature1 from "../../images/feature1.png";
-import feature2 from "../../images/feature2.svg";
-import feature3 from "../../images/feature3.svg";
 import person3 from "../../images/img1.svg";
 import person2 from "../../images/img2.png";
 import person1 from "../../images/img3.svg";
-import heroimge from "../../images/svg-2.svg";
-import Feature from "../../components/features/feature";
-import Rhcontent from "../../components/rhcontent/Rhcontent";
 import Item from "../../components/Item/Item";
 import icon4 from "../../images/Icon-1.svg";
 import icon5 from "../../images/Icon2.svg";
@@ -23,17 +17,17 @@ import woman3 from "../../images/woman-in-collared-shirt-774909.png";
 function AboutUs() {
   return (
     <div>
-      <div class="m-auto max-w-2/12 items-center sm:m-5 justify-center py-10 text-center">
-        <h1 class="text-3xl sm:text-5xl font-bold mb-2 text-lg text-center ">
+      <div className="m-auto w-full items-center sm:m-5 justify-center px-72  py-10 text-center">
+        <h1 className=" sm:text-5xl font-bold mb-2 text-lg text-center ">
           We are proud of our products
         </h1>
-        <p class="text-center font-semibold">
+        <p className="text-center font-semibold">
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
           sed diam voluptua.
         </p>
       </div>
-      <div class="flexcard flex-col sm:flex-row p-4">
+      <div className="flexcard flex-col sm:flex-row p-4">
         <div>
           <img src={person1} alt="gort" />
         </div>
@@ -43,16 +37,16 @@ function AboutUs() {
         <div>
           <img src={person3} alt="gort" />
         </div>
-      </div>
+      </div>                                     
 
-      <div class="w-10/12 sm: m-auto ">
+      <div className="w-10/12 px-72 sm: m-auto ">
         <Whyus
-          headLine="Why should you work with us?"
-          itemHeading="To upscale your business to the next level"
+          headLine="About Us"
+          itemHeading="We’re a team of data analysts"
           info="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua invidunt ut labore."
         />
       </div>
-      <div class="md:flex justify-center item-center mt-10 mx-20 sm: mx-5 max-w-7xl w-2xl gap-10 ">
+      <div className="md:flex justify-center item-center mt- m-auto bg-faq p-24 w-full w-2xl gap-10 ">
         <Whyus
           headLine="Our Goal"
           itemHeading="To upscale your business to the next level"
@@ -65,11 +59,11 @@ function AboutUs() {
         />
       </div>
       <div>
-        <div class="m-auto max-w-9/12 item-center justify-center py-10 ">
-          <h1 class="text-3xl sm:text-5xl font-bold mb-2 text-lg text-center ">
+        <div className="m-auto max-w-9/12 item-center justify-center py-10 ">
+          <h1 className="text-3xl sm:text-5xl font-bold mb-2 text-lg text-center ">
             We are proud of our products
           </h1>
-          <p class="text-center font-semibold">
+          <p className="text-center font-semibold">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat, sed diam voluptua.
@@ -116,41 +110,41 @@ function AboutUs() {
           </div>
         </div>
       </div>
-      <div class="md:flex justify-center item-center mt-4 mx-auto max-w-5xl gap-8">
+      <div className="md:flex justify-center item-center mt-4 mx-auto max-w-5xl gap-8">
         <Whyus
           itemHeading="Our talented Team"
           info="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
         />
-        <div class="sm:grid grid-cols-3 mx-auto px-20 gap-4">
+        <div className="sm:grid grid-cols-3 mx-auto px-20 gap-4">
           <div>
             <img src={man1} alt="gort" />
-            <h3 class="font-bold">Blake Matthews</h3>
-            <p class="font-semibold">CEO & Co-Founder</p>
+            <h3 className="font-bold">Blake Matthews</h3>
+            <p className="font-semibold">CEO & Co-Founder</p>
           </div>
           <div>
             <img src={man2} alt="gort" />
-            <h3  class="font-bold">Blake Matthews</h3>
-            <p class="font-semibold">CEO & Co-Founder</p>
+            <h3  className="font-bold">Blake Matthews</h3>
+            <p className="font-semibold">CEO & Co-Founder</p>
           </div>
           <div>
             <img src={woman1} alt="gort" />
-            <h3 class="font-bold">Blake Matthews</h3>
-            <p class="font-semibold">CEO & Co-Founder</p>
+            <h3 className="font-bold">Blake Matthews</h3>
+            <p className="font-semibold">CEO & Co-Founder</p>
           </div>
           <div>
             <img src={man3} alt="gort" />
-            <h3 class="font-bold">Blake Matthews</h3>
-            <p class="font-semibold">CEO & Co-Founder</p>
+            <h3 className="font-bold">Blake Matthews</h3>
+            <p className="font-semibold">CEO & Co-Founder</p>
           </div>
           <div>
             <img src={woman2} alt="gort" />
-            <h3 class="font-bold">Blake Matthews</h3>
-            <p class="font-semibold">CEO & Co-Founder</p>
+            <h3 className="font-bold">Blake Matthews</h3>
+            <p className="font-semibold">CEO & Co-Founder</p>
           </div>
           <div>
             <img src={woman3} alt="gort" />
-            <h3 class="font-bold">Blake Matthews</h3>
-            <p class="font-semibold">CEO & Co-Founder</p>
+            <h3 className="font-bold">Blake Matthews</h3>
+            <p className="font-semibold">CEO & Co-Founder</p>
           </div>
         </div>
       </div>

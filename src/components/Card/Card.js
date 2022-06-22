@@ -7,13 +7,13 @@ const Card = (props) => {
             <div className="content">
                 <div className="pro">
                     <h4>{props.plan}</h4>
-                    {/* {props.img && <img src={Popular} alt="popular" />} */}
                 </div>
                 <ul className="features">
                     {props.feat.map((item) => (
                         <li key={item.id}>
                             <span>{item.title}</span>
                             <br />
+                            <div>{item.image}</div>
                             {/* <p>{item.text}</p> */}
                         </li>
                     ))}

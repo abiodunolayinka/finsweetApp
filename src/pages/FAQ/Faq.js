@@ -21,9 +21,9 @@ const Faq = () => {
 
   return (
     <section id="FAQ" className="section-6">
-      <div class="md:flex justify-center item-center m-auto w-10/12">
-        <div className="more-faq">
-          <h1 class="font-bold text-3xl sm:text-4xl">Frequently Asked Questions</h1>
+      <div class="md:flex justify-center item-center m-auto bg-faq rounded-lg p-4  w-10/12">
+        <div className="more-faq  w-2/4 px-20">
+          <h1 class="font-bold text-3xl md:text-5xl">Frequently Asked Questions</h1>
           <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod <br />tempor invidunt. {" "}
