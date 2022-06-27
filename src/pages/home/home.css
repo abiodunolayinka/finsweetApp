@@ -80,7 +80,6 @@
 heroimge > img {
   width: 100%;
   height: 100%;
-
 }
 .featbul {
   color: #1d2130;
@@ -134,4 +133,9 @@ heroimge > img {
   display: flex;
   flex-direction: row;
   /* text-align: center; */
+}
+@media screen and (max-width: 862px) {
+  .image {
+    display: none;
+  }
 }

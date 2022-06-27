@@ -100,8 +100,8 @@ const home = () => {
             height="20%"
             />
           </div>
-          <div classname="hidden">
-            <img src={heroimge} alt="gort" />
+          <div className="image">
+            <img src={heroimge} alt="gort"  />
           </div>
         </div>
       </div>

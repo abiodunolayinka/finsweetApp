@@ -40,7 +40,7 @@ function Product() {
   return (
     <div>
       <div className="md:flex  w-10/12  px=auto justify-center item-center m-auto sm:mb-10 sm:p-10 ">
-        <div classname=" w-6/12 flex justify-center item-center">
+        <div classname="  flex justify-center item-center">
           <Whyus
             itemHeading="To upscale your business to the next level"
             info="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua invidunt ut labore."
@@ -73,7 +73,7 @@ function Product() {
         <Logo img={Logo6} />
       </div>
       <div>
-        <div className="heroHeading text-3xl sm:text-4xl py-8">
+        <div className="heroHeading text-3xl sm:text-5xl md:px-48  p-8">
           Get the best out of your company with our service
         </div>
         <div>
@@ -96,7 +96,7 @@ function Product() {
                   info="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy."
                 />
               </div>
-              <div className="md:flex  p-auto px-10 pb-10 gap-5 ">
+              <div className="md:flex   px-10 pb-10 gap-5 ">
                 <Item
                   Logo={icon4}
                   itemHeading="High security to protect from piracy"
@@ -118,7 +118,7 @@ function Product() {
         </div>
       </div>
       <div class="m-auto ">
-        <div class="md:flex gap-10 justify-center w-10/12 m-24 ">
+        <div class="md:flex gap-10 justify-center w-10/12 m-auto mb-8  mt-24 ">
           <div classname="md:w-1/4">
             <Whyus
               headLine="Market insights"
@@ -132,7 +132,7 @@ function Product() {
         </div>
       </div>
       <div class=" m-auto w-11/12">
-        <div class="md:flex gap-10 justify-center  m-auto ">
+        <div class="md:flex gap-10 justify-center mb-8 m-auto ">
           <div class="w-4/5">
             <img src={Heroimge} alt="gort" />
           </div>
@@ -146,7 +146,7 @@ function Product() {
         </div>
       </div>
       <div class="m-auto w-11/12">
-        <div class="md:flex gap-10 justify-center  m-auto ">
+        <div class="md:flex gap-10 justify-center mb-8  m-auto ">
           <div classname="md:w-1/4">
             <Whyus
               headLine="Lead generation"
@@ -160,7 +160,7 @@ function Product() {
         </div>
       </div>
       <div class="b-24 m-auto w-11/12">
-        <div class="md:flex flex-cols sm:flex-row gap-10 justify-center m-auto ">
+        <div class="md:flex flex-cols sm:flex-row gap-10 mb-8 justify-center m-auto ">
           <div class="w-4/5">
             <img src={Heroimge} alt="heroimg" />
           </div>
