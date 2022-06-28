@@ -9,7 +9,7 @@ function contact() {
       <div className="m-auto w-10/12  items-center  justify-center  py-10 text-center">
         <h1 className="font-primary text-5xl mb-24">Get in touch with us</h1>
 
-        <div className="bg-faq  m-auto rounded-2xl  w-10/12">
+        <div className="bg-faq  m-auto rounded-2xl w-full md:w-10/12">
           <div class="w-6/10   px-16 ">
             <h1 className="font-sans text-5xl mb-4 bolder">
               Drop us a message
