@@ -6,9 +6,9 @@ import woman1 from "../../images/woman-wearing-eyeglasses-1878522.png";
 
 const BlogPost = () => {
   return (
-    <div class="sm:mx-4 w-10/12 w-11/12 m-auto">
+    <div class="sm:mx-4 w-11/12 m-auto">
       <div class="max-w-11/12">
-        <div class="m-auto w-7/12 sm:m-auto items-center sm:m-5 justify-center py-10 ">
+        <div class="m-auto w-7/12 sm:m-auto items-center  justify-center py-10 ">
           <h1 class="text-3xl sm:text-4xl  font-bold mb-2 text-center ">
             New invoicing features to help you get paid faster
           </h1>
@@ -20,7 +20,7 @@ const BlogPost = () => {
       <div>
         <img class="w-2xl sm:m-auto" src={man} alt="gort" />
       </div>
-      <div class="m-auto sm:w-7/12 sm:m-auto  sm:m-5 justify-center py-10 ">
+      <div class="m-auto sm:w-7/12 sm:m-auto   justify-center py-10 ">
         <h1 class="text-3xl sm:text-5xl font-bold mb-2 text-lg text-center ">
           New invoicing features to help you get paid faster
         </h1>
@@ -49,7 +49,7 @@ const BlogPost = () => {
           at nisi sed elit gravida malesuada.
         </p>
       </div>
-      <div class="m-auto sm:w-7/12 sm:m-auto items-center sm:m-5 justify-center py-10 ">
+      <div class="m-auto sm:w-7/12 sm:m-auto items-center  justify-center py-10 ">
         <h1 class="text-3xl sm:text-5xl font-bold mb-2 text-lg text-center ">
           New invoicing features to help you get paid faster
         </h1>

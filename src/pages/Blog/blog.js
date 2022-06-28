@@ -1,4 +1,5 @@
 import  { React, useState} from "react";
+import { Link } from "react-router-dom";
 import boy from "../../images/photo-of-boy-using-vr-headset-4145356.svg";
 import man from "../../images/people-working-in-front-of-the-computer-3184357.svg";
 import man2 from "../../images/man-in-brown-button-up-shirt-3785079.png";
@@ -7,11 +8,8 @@ import man3 from "../../images/photography-of-a-guy-wearing-green-shirt-1222271.
 import woman2 from "../../images/woman-smiling-at-the-camera-1181686.png";
 import woman3 from "../../images/woman-in-collared-shirt-774909.png";
 import Whyus from "../../components/whyus/whyUs";
-function blog() {
-  const [click, setClick] = useState(false)
-  const handleClick =(index)=> {
-    setClick(index)
-  }
+function Blog() {
+  
   const data = [
     {
       images: woman3,
@@ -92,10 +90,10 @@ function blog() {
           <img className="w-4xl mt-4" src={man} alt="gort" />
         </div>
       </div>
-
+      <Link to= "/blogPost">
       <div className="sm:grid grid-cols-3 m-auto px-10 my-8 gap-4">
         {data.map((data, index) => (
-          <div key={index} onClick={()=>handleClick[index]}>
+          <div>
             <img src={data.images} alt="gort" />
             <div className="w-full pr-4">
               <h3 className="font-bold">{data.headline}</h3>
@@ -105,8 +103,10 @@ function blog() {
           </div>
         ))}
       </div>
+      </Link>
+
     </div>
   );
 }
 
-export default blog;
+export default Blog;
