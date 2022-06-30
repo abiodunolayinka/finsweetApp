@@ -63,7 +63,7 @@ const Price = () => {
     );
   };
   return (
-    <section id="Pricing" className="section-4 bg-herobg">
+    <section id="Pricing" className="section-4 ">
       <div className="price-text">
         <h2>For the best results</h2>
         <p>
@@ -72,8 +72,8 @@ const Price = () => {
           <br /> nullam ultrices netus mauris, phasellus.
         </p>
       </div>
-      <div className="main-price bg-herobg">
-        <div className="plan-switch-container">
+      <div className="main-price ">
+        <div className="plan-switch-container md:w-1/4">
           <span
             className={`monthly ${time === "monthly" && "active"}`}
             onClick={() => handlePrice("monthly")}

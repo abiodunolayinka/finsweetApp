@@ -23,11 +23,11 @@ const Navbar = () => {
         <nav className="navbar">
           <div onClick={handleClick}>
             {Click ? (
-              <button>
+              <button className=" md:hidden">
                 <FaBars />
               </button>
             ) : (
-              <button>
+              <button className=" md:hidden">
                 <FaTimes />
               </button>
             )}

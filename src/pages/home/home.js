@@ -87,7 +87,7 @@ const home = () => {
         </div>
       </div>
       <div className="Cta">
-        <div className="Ctacontent md:flex:cols">
+        <div className="Ctacontent p-10 md:flex:cols">
           <div classname="mb-4">
             <Whyus
               itemHeading="To upscale your business to the next level"
