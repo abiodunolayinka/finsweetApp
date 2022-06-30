@@ -38,7 +38,7 @@ const home = () => {
       <section classname="section1 bg-herobg">
         <div className="p-6 w-5/6 sm-3/6 m-auto text-center">
           <h4 className="heading-label">High quality</h4>
-          <h1 className="text-3xl sm:text-5xl text-primary font-bold">
+          <h1 className="text-3xl sm:text-5xl pb-5 md:px-48 text-primary font-bold">
             We have the Best Solution for your Business
           </h1>
         </div>
@@ -65,7 +65,7 @@ const home = () => {
           {/* <img scr={logo} alt="Arrowimg" /> */}
         </div>
       </section>
-      <div className="w-11/12 m-auto flex justify-center items-center my-24 flex-col md:flex-row md:gap-20">
+      <div className="w-11/12 m-auto  flex justify-center items-center my-24 flex-col md:flex-row md:gap-20">
         <Whyus
           headLine="Why should you work with us?"
           itemHeading="To upscale your business to the next level"
