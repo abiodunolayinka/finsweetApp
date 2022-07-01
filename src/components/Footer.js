@@ -6,7 +6,6 @@ import InstagramLogo from "../images/Instagram.svg";
 import LinkedInLogo from "../images/LinkedIn.svg";
 import { Link } from "react-router-dom";
 
-
 export default function Footer() {
   return (
     <div>
@@ -26,7 +25,10 @@ export default function Footer() {
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy.
           </p>
-          <Link to="/Pricing">  <Button label="View Pricing" color="white" bg="primary" /></Link>
+          <Link to="/Pricing">
+            {" "}
+            <Button label="View Pricing" color="white" bg="primary" />
+          </Link>
         </div>
       </div>
       <div className="bg-primary p-10 flex flex-col gap-10 md:gap-0 md:flex-row justify-between">
@@ -68,7 +70,7 @@ export default function Footer() {
           <h3 className="text-white text-lg my-6">
             Subscribe to our Newsletter
           </h3>
-          <div className="h-14 flex">
+          <form className="h-14 flex">
             <input
               className="h-4/12 rounded px-4 text-white w-full md:w-80"
               type="text"
@@ -76,7 +78,7 @@ export default function Footer() {
               style={{ backgroundColor: "#2B2E3C" }}
             />
             <Button label="Subscribe" color="black" bg="white" height="100%" />
-          </div>
+          </form>
         </div>
       </div>
       {/* divider */}
